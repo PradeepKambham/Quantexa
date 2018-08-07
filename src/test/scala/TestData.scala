@@ -1,0 +1,70 @@
+
+object TestData {
+
+  val questionOneInput = List(
+    Transaction("T0001","A27",1,"GG",338.11),
+    Transaction("T0002","A5",1,"BB",677.89),
+    Transaction("T0003","A32",1,"DD",499.86),
+    Transaction("T0004","A42",2,"DD",801.81),
+    Transaction("T0005","A19",2,"BB",14.42),
+    Transaction("T0006","A46",3,"FF",476.88),
+    Transaction("T0007","A29",3,"FF",439.49),
+    Transaction("T0008","A49",3,"DD",848.9),
+    Transaction("T0009","A47",4,"BB",400.42),
+    Transaction("T00010","A23",4,"BB",416.36))
+
+  val questionTwoInput = List(
+    Transaction("T0001","A1",1,"AA",338.11),
+    Transaction("T0002","A1",1,"AA",677.89),
+    Transaction("T0003","A1",1,"AA",499.86),
+    Transaction("T0004","A1",2,"AA",801.81),
+    Transaction("T0005","A2",2,"AA",14.42),
+    Transaction("T0006","A2",3,"AA",476.88),
+    Transaction("T0007","A2",3,"AA",439.49),
+    Transaction("T0008","A1",3,"BB",848.9),
+    Transaction("T0009","A1",4,"BB",400.42),
+    Transaction("T00010","A1",4,"BB",416.36),
+    Transaction("T00011","A2",1,"BB",338.11),
+    Transaction("T00012","A2",1,"BB",677.89),
+    Transaction("T00013","A2",1,"BB",499.86),
+    Transaction("T00014","A1",2,"CC",801.81),
+    Transaction("T00015","A1",2,"CC",14.42),
+    Transaction("T00016","A2",3,"CC",476.88),
+    Transaction("T00017","A1",3,"DD",439.49),
+    Transaction("T00018","A2",3,"DD",848.9),
+    Transaction("T00019","A1",4,"EE",400.42),
+    Transaction("T00020","A2",4,"EE",416.36),
+    Transaction("T00021","A1",1,"FF",338.11),
+    Transaction("T00022","A1",1,"FF",677.89),
+    Transaction("T00023","A1",1,"GG",499.86),
+    Transaction("T00024","A1",2,"GG",801.81),
+    Transaction("T00025","A1",2,"GG",14.42),
+    Transaction("T00026","A1",3,"GG",476.88),
+    Transaction("T00027","A2",3,"GG",439.49),
+    Transaction("T00028","A2",3,"GG",848.9),
+    Transaction("T00029","A2",4,"GG",400.42),
+    Transaction("T00030","A2",4,"GG",416.36))
+
+  val questionThreeInput = List(
+    Transaction("T0001","A1",1,"AA",17.0),
+    Transaction("T0002","A1",3,"AA",10.0),
+    Transaction("T0003","A1",4,"AA",15.0),
+    Transaction("T0004","A1",2,"CC",3.0),
+    Transaction("T0005","A1",3,"CC",4.0),
+    Transaction("T0006","A1",3,"CC",5.0),
+    Transaction("T0007","A1",2,"FF",1.0),
+    Transaction("T0008","A1",3,"FF",1.0),
+    Transaction("T0009","A1",4,"FF",1.0),
+    Transaction("T00010","A1",4,"FF",1.0),
+    Transaction("T00011","A1",6,"FF",1000.00),
+    Transaction("T00012","A1",1,"BB",1.0),
+    Transaction("T00013","A1",1,"DD",1.0),
+    Transaction("T00014","A2",2,"AA",1.0),
+    Transaction("T00015","A2",2,"AA",1.0),
+    Transaction("T00016","A2",3,"CC",1.0),
+    Transaction("T00017","A2",3,"CC",22.0),
+    Transaction("T00018","A2",3,"FF",1.0),
+    Transaction("T00019","A2",4,"FF",1.0),
+    Transaction("T00020","A2",4,"FF",1.0))
+
+}
